@@ -1,10 +1,6 @@
 <html>
 <body>
     <h2>Dynamic trust web service</h2>
-    <p><b>Retrieve all products</b>: http://default-environment-z2wpgese8j.elasticbeanstalk.com/trustservice/products
-    <p><b>Retrieve all buyers</b>: http://default-environment-z2wpgese8j.elasticbeanstalk.com/trustservice/buyers
-    <p><b>Retrieve all sellers</b>: http://default-environment-z2wpgese8j.elasticbeanstalk.com/trustservice/sellers
-    <p></p>
     <p><b>Retrieve product static rating</b>: http://default-environment-z2wpgese8j.elasticbeanstalk.com/trustservice/products/{productId}</a>
     <p><b>Retrieve buyer's friends' dynamic rating to a product</b>: http://default-environment-z2wpgese8j.elasticbeanstalk.com/trustservice/buyers/{buyerId}/{productId}</a>
     <p><b>Retrieve seller's penalty</b>: http://default-environment-z2wpgese8j.elasticbeanstalk.com/trustservice/sellers/{sellerId}</a>
